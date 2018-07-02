@@ -52,17 +52,27 @@
               "angle": 0,
               "id": "47a8ed6b-3ae5-4c68-8739-623e3fb1e388",
               "z": 2,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "privilegeLevel": "High",
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "title": "Threat1",
+                  "description": "Test of first threat",
+                  "mitigation": "First mitigation test"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "login"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
