@@ -1,11 +1,18 @@
 {
   "summary": {
     "title": "MyFirstModel",
-    "owner": "Russ Johnson"
+    "owner": "Russ Johnson",
+    "description": "My first model"
   },
   "detail": {
     "contributors": [],
-    "diagrams": [],
+    "diagrams": [
+      {
+        "title": "MyFirstDiagram",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
     "reviewer": "Russ Johnson"
   }
 }
